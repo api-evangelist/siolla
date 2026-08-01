@@ -1,7 +1,23 @@
 aid: siolla
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siolla.png
 name: Siolla
-description: Siolla is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Siolla is a Saudi financial-technology company offering a consumer investment-management
+  mobile application. It provides professionally managed, fully Sharia-compliant investment portfolios,
+  an in-app academy and educational resources covering financial fundamentals, budgeting and investment
+  strategy, and simplified access to investing for modern investors. Siolla is licensed and regulated
+  by the Saudi Capital Market Authority. The company presents a consumer app and website only; no public
+  developer program, API, or developer documentation is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/siolla/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Investment
+- Wealth Management
+- Portfolio Management
+- Sharia-Compliant
+- Saudi Arabia
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://siolla.com
+- type: Blog
+  url: https://siolla.com/ar/news
+- type: SignUp
+  url: https://siolla.com/ar/waiting-list
+- type: TermsOfService
+  url: https://siolla.com/ar/terms
+- type: PrivacyPolicy
+  url: https://siolla.com/ar/privacy
+- type: DomainSecurity
+  url: security/siolla-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
