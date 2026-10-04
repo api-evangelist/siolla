@@ -44,7 +44,7 @@ tags:
 - Fintech
 - Investment
 - Wealth Management
-- Portfolio-Management
+- Portfolio Management
 - Sharia-Compliant
 - Saudi Arabia
 - Mobile App
@@ -57,6 +57,7 @@ tags_raw:
 - Sharia-Compliant
 - Saudi Arabia
 - Mobile App
+- Portfolio-Management
 apis: []
 maintainers:
 - FN: Kin Lane
